@@ -1,0 +1,56 @@
+body {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+nav > ul {
+	list-style: none;
+	display: flex;
+	justify-content: space-around;
+}
+nav > ul > li a {
+	text-decoration: none;
+	color: #000000;
+}
+li a:hover {
+	color: #363636;
+}
+.school_logo {
+	background-color: purple;
+}
+.key_note_speaker {
+	padding-right: 20px;
+	float: left;
+}
+main {
+	display: flex;
+}
+main > section {
+	width: 70%;
+	margin-right: 20px;
+	text-align: justify;
+}
+aside {
+	width: 30%;
+	margin-left: 20px;
+	color: white;
+}
+.article1 {
+	background-color: plum;
+	padding: 5px;
+}
+.article2 {
+	background-color: purple;
+	padding: 5px;
+}
+footer {
+	background-color: #363636;
+	color: white;
+}
+footer > p {
+	width: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}

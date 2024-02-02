@@ -1,0 +1,77 @@
+body {
+	max-width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+header {
+	margin-bottom: 20px;
+}
+.logo {
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+.logo_text {
+	font-size: 2em;
+	padding-top: 30px;
+}
+table,
+td {
+	border: 1px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+}
+a {
+	text-decoration: none;
+	color: #000000;
+}
+a:hover {
+	color: #363636;
+}
+.img_placholder {
+	width: 35%;
+	border: 50px solid lightgray;
+	border-bottom: 100px solid lightgray;
+	margin-right: 20px;
+}
+section {
+	display: flex;
+}
+.main_text {
+	width: 65%;
+}
+footer {
+	margin-top: 50px;
+}
+.cheeses {
+	width: 33%;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.cheeses img {
+	width: 100%;
+}
+input {
+	display: inline;
+}
+form {
+	display: flex;
+}
+.label {
+	margin-right: 10px;
+	width: 20%;
+}
+.input {
+	margin-right: 10px;
+	width: 40%;
+}
+input[type='submit'] {
+	width: 20%;
+	display: block;
+}
